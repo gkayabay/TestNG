@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.class02.AssertionDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="openBrowserAndNavigate"/>
+          <include name="quitBrowser"/>
+          <include name="titleValidation"/>
+          <include name="logoValidation"/>
+        </methods>
+      </class> <!-- com.class02.AssertionDemo -->
+      <class name="com.class02.SoftAssertionDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoAndWelcomeValidation"/>
+          <include name="quitBrowser"/>
+          <include name="setUp"/>
+          <include name="openBrowserAndNavigate"/>
+        </methods>
+      </class> <!-- com.class02.SoftAssertionDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

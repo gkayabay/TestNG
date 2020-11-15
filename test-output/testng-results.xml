@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10204" started-at="2020-05-28T23:30:38 EDT" finished-at="2020-05-28T23:30:48 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10204" started-at="2020-05-28T23:30:38 EDT" finished-at="2020-05-28T23:30:48 EDT">
+      <class name="com.test.OrangeHRMSelfPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.OrangeHRMSelfPageTest@1f7030a6]" name="setUp" is-config="true" duration-ms="1941" started-at="2020-05-28T23:30:38 EDT" finished-at="2020-05-28T23:30:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToOrangeHrms(java.lang.String, java.lang.String)[pri:0, instance:com.test.OrangeHRMSelfPageTest@1f7030a6]" name="loginToOrangeHrms" duration-ms="3612" started-at="2020-05-28T23:30:40 EDT" data-provider="dataProvider" finished-at="2020-05-28T23:30:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOrangeHrms -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.OrangeHRMSelfPageTest@1f7030a6]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-05-28T23:30:43 EDT" finished-at="2020-05-28T23:30:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.OrangeHRMSelfPageTest@1f7030a6]" name="setUp" is-config="true" duration-ms="1589" started-at="2020-05-28T23:30:43 EDT" finished-at="2020-05-28T23:30:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToOrangeHrms(java.lang.String, java.lang.String)[pri:0, instance:com.test.OrangeHRMSelfPageTest@1f7030a6]" name="loginToOrangeHrms" duration-ms="2858" started-at="2020-05-28T23:30:45 EDT" data-provider="dataProvider" finished-at="2020-05-28T23:30:48 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adim123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOrangeHrms -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.OrangeHRMSelfPageTest@1f7030a6]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-05-28T23:30:48 EDT" finished-at="2020-05-28T23:30:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.OrangeHRMSelfPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

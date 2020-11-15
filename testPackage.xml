@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="test testPackage">
+		<classes>
+			<!-- <class name="com.test.AddEmployeeTest" /> -->
+			<class name="com.test.LoginTest"> <!-- I want to test all methods of com.test.LoginTest -->
+				<methods> <!-- I want to exclude this specific method/Test Case -->
+					<exclude name="invalidPasswordLogin"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- <test name="test class02"> <packages> <package name="com.class02"></package> 
+		</packages> </test> -->
+</suite>
+
+<!-- 
+Whoever does it in two different ways will get 100
+Task until 8:06
+Create a class01.xml file
+which will execute all test methods
+of three classes from com.class01 package 
+I don't want methods from TitleLogoAndLoginValidation to be executed
+1. DifferentAnnotations 
+2. TaskTwo 
+3. TestNGDemo 
+-->
